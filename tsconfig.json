@@ -1,0 +1,20 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": ["node_modules", "dist", "mycyt"],
+  "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "outDir": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  }
+}
